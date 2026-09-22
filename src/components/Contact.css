@@ -1,0 +1,78 @@
+.contact-section {
+  position: relative;
+  z-index: 10;
+  padding-bottom: 8rem;
+}
+
+.contact-card {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+.contact-card .section-title {
+  margin-bottom: 1.5rem;
+}
+
+.contact-desc {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-info {
+  margin-bottom: 3rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-soft);
+}
+
+.social-link:hover {
+  background: var(--accent-color);
+  color: #fff;
+  border-color: var(--accent-color);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.2);
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.text-secondary:hover {
+  color: var(--accent-color);
+}
