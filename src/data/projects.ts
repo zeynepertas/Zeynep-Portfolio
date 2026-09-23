@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'music-classification',
+    title: 'Music Genre Classification',
+    descriptionTr: 'Ses sinyalleri üzerinde Kısa Süreli Fourier Dönüşümü (STFT) tabanlı Log-Spektrogram öznitelik çıkarımı (feature extraction) gerçekleştiren kapsamlı bir Müzik Türü Sınıflandırma (Genre Classification) sistemidir. Akustik veriler; Destek Vektör Makineleri (SVM), K-En Yakın Komşu (KNN), Karar Ağaçları ve Yapay Sinir Ağları (YSA) kullanılarak eğitilmiş ve modellerin metrikleri karşılaştırmalı olarak sunulmuştur.',
+    descriptionEn: 'A comprehensive Music Genre Classification system performing Short-Time Fourier Transform (STFT) based Log-Spectrogram feature extraction on audio signals. Acoustic data was used to train models including SVM, KNN, Decision Trees, and Artificial Neural Networks (ANN), providing a robust comparative performance analysis.',
+    techStack: ['Python', 'Librosa', 'Scikit-Learn', 'ANN', 'Signal Processing'],
+    githubUrl: 'https://github.com/zeynepertas/Music-Classification-App',
+  },
+  {
     id: 'brain-hemorrhage-yolo',
     title: 'Brain Hemorrhage Detection with YOLOv8',
     descriptionTr: 'YOLOv8 mimarisinden güç alan, bilgisayarlı görü (Computer Vision) tabanlı beyin kanaması teşhis sistemi. Asenkron FastAPI ve ThreadPool entegrasyonuyla yüksek ölçeklenebilirlik sunarken, siber güvenlik protokolleriyle korunan tıbbi standartlarda uçtan uca bir yapay zeka platformu.',
