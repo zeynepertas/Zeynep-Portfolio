@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'esen-uav',
+    title: 'ESEN UAV Ground Control',
+    descriptionTr: 'İnsansız Hava Araçları (İHA) için geliştirilmiş ileri düzey Yer Kontrol İstasyonu (GCS). Arduino donanımı, Python tabanlı RabbitMQ köprüsü ve Angular arayüzünün eşsiz entegrasyonu; 3D Suni Ufuk, RxJS bellek yönetimi ve gerçek zamanlı telemetri işleme yetenekleriyle donatıldı.',
+    descriptionEn: 'An advanced Ground Control Station (GCS) engineered for Unmanned Aerial Vehicles (UAVs). Features a seamless integration of Arduino hardware, a Python-based RabbitMQ bridge, and an Angular interface, equipped with a 3D Artificial Horizon, RxJS memory management, and real-time telemetry processing.',
+    techStack: ['TypeScript', 'Angular', 'Python', 'RabbitMQ', 'Arduino'],
+    githubUrl: 'https://github.com/zeynepertas/ESEN-UAV-Ground-Control-',
+  },
+  {
     id: 'music-classification',
     title: 'Music Genre Classification',
     descriptionTr: 'Ses sinyalleri üzerinde Kısa Süreli Fourier Dönüşümü (STFT) tabanlı Log-Spektrogram öznitelik çıkarımı (feature extraction) gerçekleştiren kapsamlı bir Müzik Türü Sınıflandırma (Genre Classification) sistemidir. Akustik veriler; Destek Vektör Makineleri (SVM), K-En Yakın Komşu (KNN), Karar Ağaçları ve Yapay Sinir Ağları (YSA) kullanılarak eğitilmiş ve modellerin metrikleri karşılaştırmalı olarak sunulmuştur.',
@@ -23,14 +31,6 @@ export const projects: Project[] = [
     descriptionEn: 'A Computer Vision diagnostic system powered by the YOLOv8 architecture for detecting brain hemorrhages from CT images. It offers high scalability with asynchronous FastAPI and ThreadPool integration, functioning as an end-to-end medical-grade AI platform protected by advanced cybersecurity protocols.',
     techStack: ['Python', 'YOLOv8', 'FastAPI', 'Computer Vision', 'Cybersecurity'],
     githubUrl: 'https://github.com/zeynepertas/Brain-Hemorrhage-Detection-with-YOLOv8',
-  },
-  {
-    id: 'esen-uav',
-    title: 'ESEN UAV Ground Control',
-    descriptionTr: 'İnsansız Hava Araçları (İHA) için geliştirilmiş ileri düzey Yer Kontrol İstasyonu (GCS). Arduino donanımı, Python tabanlı RabbitMQ köprüsü ve Angular arayüzünün eşsiz entegrasyonu; 3D Suni Ufuk, RxJS bellek yönetimi ve gerçek zamanlı telemetri işleme yetenekleriyle donatıldı.',
-    descriptionEn: 'An advanced Ground Control Station (GCS) engineered for Unmanned Aerial Vehicles (UAVs). Features a seamless integration of Arduino hardware, a Python-based RabbitMQ bridge, and an Angular interface, equipped with a 3D Artificial Horizon, RxJS memory management, and real-time telemetry processing.',
-    techStack: ['TypeScript', 'Angular', 'Python', 'RabbitMQ', 'Arduino'],
-    githubUrl: 'https://github.com/zeynepertas/ESEN-UAV-Ground-Control-',
   },
   {
     id: 'medai-cardio',
