@@ -14,7 +14,7 @@ export const projects: Project[] = [
     descriptionTr: 'İnsansız Hava Araçları (İHA) için geliştirilmiş ileri düzey Yer Kontrol İstasyonu (GCS). Arduino donanımı, Python tabanlı RabbitMQ köprüsü ve Angular arayüzünün eşsiz entegrasyonu; 3D Suni Ufuk, RxJS bellek yönetimi ve gerçek zamanlı telemetri işleme yetenekleriyle donatıldı.',
     descriptionEn: 'An advanced Ground Control Station (GCS) engineered for Unmanned Aerial Vehicles (UAVs). Features a seamless integration of Arduino hardware, a Python-based RabbitMQ bridge, and an Angular interface, equipped with a 3D Artificial Horizon, RxJS memory management, and real-time telemetry processing.',
     techStack: ['TypeScript', 'Angular', 'Python', 'RabbitMQ', 'Arduino'],
-    githubUrl: 'https://github.com/zeynepertas/ESEN-UAV-Ground-Control-',
+    githubUrl: 'https://github.com/zeynepertas/ESEN-UAV-Ground-Control',
   },
   {
     id: 'music-classification',
